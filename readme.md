@@ -33,7 +33,7 @@
 
 **Forum API** is a backend server for a forum, this project made using hapi.js and postgres for database
 <br>
-I use [Clean Architecture by Uncle Bob](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) to create these project
+I use [Clean Architecture approach](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) to create these project
 <br>
 These project is also a requirement to passed Expert Backend Developer class at [dicoding](https://www.dicoding.com/)
 
