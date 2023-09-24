@@ -110,6 +110,35 @@ for testing you need to setup and change the ```config/database/test.json```
     }
 ```
 
+and for create  ```.env``` file for basic configuration
+<br>
+you can create your own access token for encryption by yourself or from generate it randomly [here](https://generate-random.org/api-token-generator)
+```json
+    # HTTP SERVER
+    HOST=localhost
+    PORT=5000
+
+    # POSTGRES
+    PGHOST=localhost
+    PGUSER=<your-user>
+    PGPASSWORD=<your-password>
+    PGDATABASE=forum_api
+    PGPORT=5432
+
+    # POSTGRES TEST
+    PGHOST_TEST=localhost
+    PGUSER_TEST=<your-user>
+    PGPASSWORD_TEST=<your-password>
+    PGDATABASE_TEST=forum_api_test
+    PGPORT_TEST=5432
+
+    # TOKENIZE
+    ACCESS_TOKEN_KEY=<your-access-token>
+    REFRESH_TOKEN_KEY=<your-refresh-token>
+    ACCCESS_TOKEN_AGE=3000
+
+```
+
 ### Install
 
 Install this project with:
