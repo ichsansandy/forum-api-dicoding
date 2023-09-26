@@ -113,7 +113,7 @@ for testing you need to setup and change the ```config/database/test.json```
 and create  ```.env``` file for basic configuration
 <br>
 you can create your own access token for encryption by yourself or from generate it randomly [here](https://generate-random.org/api-token-generator)
-```json
+```dosini
     # HTTP SERVER
     HOST=localhost
     PORT=5000
