@@ -18,8 +18,8 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            cd ~/forum-dicoding-api
+            cd ~/forum-api-dicoding
             git pull origin main
             npm install
             npm run migrate up
-            pm2 restart auth-api
+            pm2 restart forum-api-dicoding
