@@ -10,7 +10,7 @@
 
 ## 📗 Table of Contents
 
-- [📖 Forum API ](#-gemstone-blog-)
+- [📖 Forum API ](#-forum-api-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -35,8 +35,9 @@
 <br>
 I use [Clean Architecture approach](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) to create these project
 <br>
-These project is also a requirement to passed Expert Backend Developer class at [dicoding](https://www.dicoding.com/)
-
+These project is also a requirement to passed Expert Backend Developer class at [dicoding](https://www.dicoding.com/) and [CS50x by Harvard and edX](https://www.edx.org/cs50)
+<br>
+Demo [video](https://youtu.be/kU5s-aiLKrY)
 
 ## 🛠 Built With <a name="built-with"></a>
 
